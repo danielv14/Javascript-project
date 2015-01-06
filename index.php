@@ -1,8 +1,10 @@
 <?php include('header.php'); ?>
  <div class = "container">
         <div class = "jumbotron">
-                <h1>Hello, World!</h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>
+               <div class = "jumbotron-fader">
+                        <h1>Hello, World!</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci   tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>
+                </div>
                 <a class = "btn btn-info">Show in action!</a>
          </div>
 </div>

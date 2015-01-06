@@ -21,7 +21,7 @@
                                
                                 <div class = "collapse navbar-collapse navHeaderCollapse">
                                
-                                        <ul class = "nav navbar-nav navbar-right">
+                                        <ul class = "nav navbar-nav navbar-left">
                                        
                                                 <li class = "active"><a href = "#">Home</a></li>
                                                 <li><a href = "#">Show project</a></li>
