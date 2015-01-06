@@ -2,7 +2,7 @@
                
                         <div class = "container">
                                 <p class = "navbar-text pull-left">Site Built By Daniel Vernberg</p>
-                                <a href = "#" class = "navbar-btn btn-danger btn pull-right">GitHub</a>
+                                <a href = "https://github.com/danielv14/Javascript-project" class = "navbar-btn btn-info btn pull-right">GitHub</a>
                         </div>
                
                 </div>
