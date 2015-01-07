@@ -1,4 +1,4 @@
-  <div class = "navbar navbar-inverse navbar-fixed-bottom">
+  <div class = "navbar navbar-default navbar-fixed-bottom">
                
                         <div class = "container">
                                 <p class = "navbar-text pull-left">Site Built By Daniel Vernberg</p>

@@ -1,0 +1,49 @@
+.frontpage-jumbotron {
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #fafafa;
+}
+.frontpage-jumbotron h1,
+.frontpage-jumbotron .h1 {
+  color: inherit;
+}
+.frontpage-jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.frontpage-jumbotron > hr {
+  border-top-color: #e1e1e1;
+}
+.container .frontpage-jumbotron,
+.container-fluid .frontpage-jumbotron {
+  border-radius: 5px;
+}
+.frontpage-jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .frontpage-jumbotron {
+    padding: 48px 0;
+  }
+  .container .frontpage-jumbotron,
+  .container-fluid .frontpage-jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .frontpage-jumbotron h1,
+  .frontpage-jumbotron .h1 {
+    font-size: 63px;
+  }
+}
+.frontpage-jumbotron {
+  border: 1px solid #e7e7e7;
+  -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.05);
+}
+.frontpage-frontpage-jumbotron {
+  border: 1px solid #e7e7e7;
+  -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.05);
+}
