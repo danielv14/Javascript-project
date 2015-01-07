@@ -1,18 +1,21 @@
 @import url("bootstrap.min.css");
 
 body {
-	padding-top: 70px;
 	margin-bottom: 80px;
+
 }
 
 
-.jumbotron {
+div.frontpage-jumbotron {
 background-image: url("../img/blur-jumbo.jpg");
-background-size: cover;}
-
-.jumbotron p, .jumbotron h1 {
+background-size: cover;
 color: white;
 }
+.frontpage-jumbotron h1 {
+	color: white;
+}
+
+
 
 /**
 * Use this fader if not using the blur-jumbo img
@@ -25,3 +28,4 @@ padding: 10px;
 margin-bottom: 50px;
 }
 */
+

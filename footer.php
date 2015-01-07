@@ -1,8 +1,9 @@
-  <div class = "navbar navbar-default navbar-fixed-bottom">
+  <div class = "navbar navbar-inverse navbar-fixed-bottom">
                
                         <div class = "container">
                                 <p class = "navbar-text pull-left">Site Built By Daniel Vernberg</p>
-                                <a href = "https://github.com/danielv14/Javascript-project" class = "navbar-btn btn-info btn pull-right">GitHub</a>
+                                <a href = "" class = "navbar-btn btn-info btn pull-right">GitHub</a>
+
                         </div>
                
                 </div>

@@ -1,11 +1,12 @@
 <?php include('header.php'); ?>
+ 
  <div class = "container">
-        <div class = "jumbotron">
+        <div class = "frontpage-jumbotron">
                <div class = "jumbotron-fader">
                         <h1 class="text-center">Hello, World!</h1>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci   tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>
                 </div>
-                <center><a class = "btn btn-info">Show in action!</a></center>
+                <center><a class = "btn btn-primary">Show in action!</a></center>
          </div>
 </div>
 
@@ -33,7 +34,8 @@
                
             </div>
            
-        </div>
+        </div> <!-- Container with 2 columns -->
+
 
 <?php include('footer.php'); ?>
 
