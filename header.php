@@ -7,7 +7,8 @@
                 <link href = "css/style.css" rel = "stylesheet">
                 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
                 <link href = "css/jumbotron.css" rel = "stylesheet">
-
+               
+                
         </head>
         <body>
  
@@ -27,8 +28,9 @@
                                         <ul class = "nav navbar-nav navbar-left">
                                        
                                                 <li><a href = "index.php"><i class="fa fa-home"></i> Home</a></li>
-                                                <li><a href = "project.php"><i class="fa fa-camera-retro"></i> Show project</a></li>
-                                                <li><a href = "about.php"><i class="fa fa-info-circle"></i> About</a></li>                                       
+                                                <li><a href = "project-search.php"><i class="fa fa-camera-retro"></i> Show project</a></li>
+                                                <li><a href = "about.php"><i class="fa fa-info-circle"></i> About</a></li>  
+
                                         </ul>
                                
                                 </div>
