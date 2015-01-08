@@ -14,8 +14,8 @@ instaSearch.controller("index", ["$scope", function ($scope) {
                 target: 'instafeed',
                 sortBy: 'most-liked',
                 limit: '30',
-                        template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="likes"><i class="fa fa-heart"></i> {{likes}}</div></a>',
-      /*  after: function () {
+                template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="likes"><i class="fa fa-heart"></i> {{likes}}</div></a>',
+                  after: function () {
                             var images = $("#instafeed").find('a');
                             $.each(images, function(index, image) {
                               var delay = (index * 75) + 'ms';
@@ -24,9 +24,9 @@ instaSearch.controller("index", ["$scope", function ($scope) {
                               $(image).css('-ms-animation-delay', delay);
                               $(image).css('-o-animation-delay', delay);
                               $(image).css('animation-delay', delay);
-                              $(image).addClass('animated flipInX');
+                              $(image).addClass('animated fadeup');
                             });
-                          }, */
+                          }, 
     }).run();
   };
   
