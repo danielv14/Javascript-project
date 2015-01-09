@@ -1,5 +1,6 @@
 <?php include('header.php'); ?>
 
+
   <div class='container' ng-app="root">
 	<div class = "jumbotron">
   <div class = "jumbotron-fader">
@@ -11,7 +12,7 @@
 
               <div class="col-lg-12">
                 <div class="input-group">
-                  <input id="search" ng-model="search"  type="text" class="form-control" placeholder="Search for..." autofocus>
+                  <input id="search" ng-model="search"  type="text" class="form-control search" placeholder="Search for..." ng-keypress="searchTag()">
                   <span class="input-group-btn">
                     <button ng-click="searchTag()" ng-enter="search" id="submit" class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
                   </span>
