@@ -9,9 +9,7 @@
                            
                                 <div class = "panel-body">
                                    
-                                    <div class = "page-header">
-                                        <h1>How to use the products</h1>
-                                    </div>
+                                   
                                 <h1>About</h1>
 
 <p>At Insta-site you find two different web applications that both is about displaying content from Instagram. You don't need to register an account at Insta-site, nor do you even need a Instagram account to use the applications.</p>

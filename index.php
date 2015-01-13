@@ -17,7 +17,7 @@
                 <div class = "col-md-6">
                    
                     <h3>About the gallery</h3>
-                    <p>The gallary is capable of showing the 30 most-liked photos by whatever tag you search with. You can hover over the photos to see how many likes that photo has and click the photos to see a larger image. </p>
+                    <p>The gallary is showing the 30 most-liked photos by whatever tag you search with. You can hover over the photos to see how many likes that photo has and click the photos to see a larger image. </p>
                                     <a href = "project-search.php" class = "btn btn-default">View</a>
                    
                 </div>
@@ -25,7 +25,7 @@
                 <div class = "col-md-6">
                    
                     <h3>About the slideshow</h3>
-                    <p>The slideshow is capable of showing the 30 most-liked photos by a fixed tag. Note that you cannot change what tag to display, as with the gallery. Navigate with the arrows to show the next photo or the previous photo. </p>
+                    <p>The slideshow is showing the 30 most-liked photos by a fixed tag. Note that you cannot change what tag to display, as with the gallery. Navigate with the arrows to show the next photo or the previous photo. </p>
                                     <a href = "slideshow.php" class = "btn btn-default">View</a>
                    
                 </div>
