@@ -1,3 +1,5 @@
+$(document).ready(function(){$(".fancybox").fancybox(); });
+
 var instaSearch = angular.module("root", []);
 
 instaSearch.controller("index", ["$scope", function ($scope) {
@@ -14,9 +16,10 @@ instaSearch.controller("index", ["$scope", function ($scope) {
                 target: 'instafeed',
                 sortBy: 'most-liked',
                 limit: '30',
-                template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="likes"><i class="fa fa-heart"></i> {{likes}}</div></a>',
+                resolution: 'standard_resolution',
+                template: '<a class="fancybox" rel="group" href="{{image}}"><img src="{{image}}"/><div class="likes"><i class="fa fa-heart"></i> {{likes}}</div></a>',
                   after: function () {
-                            var images = $("#instafeed").find('a');
+                              var images = $("#instafeed").find('a');
                             $.each(images, function(index, image) {
                               var delay = (index * 75) + 'ms';
                               $(image).css('-webkit-animation-delay', delay);

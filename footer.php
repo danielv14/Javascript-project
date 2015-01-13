@@ -7,11 +7,12 @@
                         </div>
                
                 </div>
- 				<script type="text/javascript" src="js/instafeed.js"></script>
-                <script src='js/jquery.js'></script>               
-                <script src="js/bootstrap.js"></script>
-                <script src='js/angular.js'></script>
-				<script src="js/search.js"></script>
+            <script src='js/jquery.js'></script>
+            <script src='js/fancybox.js'></script>
+            <script src="js/bootstrap.js"></script>
+
+
+
 
         </body>
 </html>

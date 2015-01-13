@@ -1,7 +1,7 @@
 @import url("bootstrap.min.css");
 
 body {
-	margin-bottom: 80px;
+  margin-bottom: 80px;
 
 }
 
@@ -12,26 +12,88 @@ background-size: cover;
 color: white;
 }
 .frontpage-jumbotron h1 {
-	color: white;
+  color: white;
+}
+
+#instafeed {
+  margin: 0 0.5em 2em 0.5em;
+}
+#instafeed a {
+  margin: 0.5em 0.5em;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: calc(100%/4 - 1em);
+  border:2px solid #e1e1e1;
+border-radius: 4px;
+}
+
+#instafeed .likes {
+  font-size:1.5em;
+  position:absolute;
+  color:#ffffff;
+  right:5px;
+  top:5px;
+  left:5px;
+  opacity:0;
+  text-align:center;
+  line-height:150px;
+  text-shadow:0 1px rgba(0,0,0,0.5);
+  -webkit-transition: opacity 500ms ease;
+  -moz-transition: opacity 500ms ease;
+  -o-transition: opacity 500ms ease;
+  -ms-transition: opacity 500ms ease;
+  transition: opacity 500ms ease;
+}
+
+#instafeed a:hover .likes {
+  opacity:1;
+}
+
+#instafeed img {
+  display: inline;
+  margin-bottom: -3px;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+ 
+}
+
+@media screen and (min-width: 1400px) {
+  #instafeed a {
+    width: calc(100%/5 - 1em);
+  }
+}
+@media screen and (max-width: 1200px) {
+  #instafeed a {
+    width: calc(100%/3 - 1em);
+  }
+}
+@media screen and (max-width: 800px) {
+  #instafeed a {
+    width: calc(100%/2 - 1em);
+  }
+}
+@media screen and (max-width: 480px) {
+  #instafeed a {
+    width: calc(100% - 1em);
+  }
 }
 
 
-
 /**
-* Use this fader if not using the blur-jumbo img
+* Old Style for instafeed
 */
-/*.jumbotron-fader {
-background-color: rgba(0, 0, 0, 0.2);
-background: rgba(0, 0, 0, 0.2);
-border-radius: 10px;
-padding: 10px;
-margin-bottom: 50px;
+/*
+
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
-*/
 
-/**
-* Style for instafeed
-*/
 #instafeed a {
   padding:5px 5px 3px 5px;
   margin:10px;
@@ -39,7 +101,9 @@ margin-bottom: 50px;
   display:inline-block;
   border-radius: 4px;
   position:relative;
+  overflow: hidden;
 }
+
 
 #instafeed .likes {
 background: rgba(58, 58, 59, 0.5);
@@ -70,3 +134,4 @@ background: rgba(58, 58, 59, 0.5);
 	width: 100%;
 	height: 100%;
 }
+*/

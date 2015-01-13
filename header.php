@@ -8,7 +8,13 @@
                 <link href = "css/style.css" rel = "stylesheet">
                 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
                 <link href = "css/jumbotron.css" rel = "stylesheet">
-                <link href = "css/animations.css" rel = "stylesheet">               
+                <link href = "css/animations.css" rel = "stylesheet">
+                <link href="css/lightbox.css" rel="stylesheet">
+                <link rel='stylesheet prefetch' href='css/fancybox.css'>
+                <link href="css/slideshow.css" rel="stylesheet">
+
+
+
                 
         </head>
         <body>
@@ -29,7 +35,9 @@
                                         <ul class = "nav navbar-nav navbar-left">
                                        
                                                 <li><a href = "index.php"><i class="fa fa-home"></i> Home</a></li>
-                                                <li><a href = "project-search.php"><i class="fa fa-camera-retro"></i> Show project</a></li>
+                                                <li><a href = "project-search.php"><i class="fa fa-camera-retro"></i> Search for tags</a></li>
+                                                <li><a href = "slideshow.php"><i class="fa fa-picture-o"></i> Slideshow</a></li>
+
                                                 <li><a href = "about.php"><i class="fa fa-info-circle"></i> About</a></li>  
 
                                         </ul>

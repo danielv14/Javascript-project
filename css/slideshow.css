@@ -1,0 +1,30 @@
+#slideshow {
+  
+}
+#slideshow img {
+width: 640px;
+height: 640px;
+border:2px solid #e1e1e1;
+border-radius: 5px;
+}
+
+.next, .prev {
+position: fixed;
+top: 30%;
+font-size: 150%;
+color: #fff;
+background: rgba(0,0,0,.5);
+margin: 1%;
+border-radius: 400px;
+padding: 1em;
+line-height: .5em;
+cursor: pointer;
+}
+
+.prev {
+left: 0;
+}
+
+.next {
+right: 0;
+}
