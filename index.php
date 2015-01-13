@@ -3,7 +3,7 @@
  <div class = "container">
         <div class = "frontpage-jumbotron">
                <div class = "jumbotron-fader">
-                        <h1 class="text-center">#Insta-site</h1>
+                        <h1 class="text-center">Insta-site</h1>
                         <p>Here at #Insta-site we really <i class="fa fa-heart-o"></i> Instagram and everything related to social media. If you are in need to instagramify your own website you've come to the right place. We offer both a searchable instgram-gallery and a slideshow for displaying instagram photos. So go ahead and check them out!</p>
                 </div>
                 <center><a class = "btn btn-primary" href="project-search.php">Gallery in action!</a></center>
@@ -16,7 +16,7 @@
                
                 <div class = "col-md-6">
                    
-                    <h3>About the searchable gallery</h3>
+                    <h3>About the gallery</h3>
                     <p>The gallary is capable of showing the 30 most-liked photos by whatever tag you search with. You can hover over the photos to see how many likes that photo has and click the photos to see a larger image. </p>
                                     <a href = "project-search.php" class = "btn btn-default">View</a>
                    
