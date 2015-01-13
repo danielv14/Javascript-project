@@ -9,7 +9,6 @@
                 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
                 <link href = "css/jumbotron.css" rel = "stylesheet">
                 <link href = "css/animations.css" rel = "stylesheet">
-                <link href="css/lightbox.css" rel="stylesheet">
                 <link rel='stylesheet prefetch' href='css/fancybox.css'>
                 <link href="css/slideshow.css" rel="stylesheet">
 

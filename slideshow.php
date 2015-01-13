@@ -2,14 +2,10 @@
 
 
 <div class = "container">
-	<div class = "jumbotron">
-  <div class = "jumbotron-fader">
-  <div ng-controller="index">
+
 
         <h1 class="text-center">Instagram slideshow</h1>
-        </div>
-        </div>
-        </div>
+    
 	<center><div id="instafeed"></div></center>
 		<div class="controls">
 			<div class="prev entypo-left-open-big"></div>

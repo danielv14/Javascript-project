@@ -6,7 +6,7 @@
   <div class = "jumbotron-fader">
   <div ng-controller="index">
 
-        <h1 class="text-center">Search Instagram Photos</h1>
+        <h2 class="text-center">Search instagram photos by tag</h2>
         
         <div class="row">
 
