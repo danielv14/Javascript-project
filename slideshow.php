@@ -15,10 +15,8 @@
 </div>
 
 
-
- <script src='js/jquery.js'></script>
-            
-<script src='js/instafeed.js'></script>
+<script src='js/jquery.js'></script>            
+<script src='js/instagram-feed.js'></script>
 <script src="js/slideshow.js"></script>
 
 <?php include('footer.php'); ?>

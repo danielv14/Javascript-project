@@ -1,5 +1,5 @@
-feed = new Instafeed({
-   get: 'tagged',
+feed = new InstagramFeed({
+                get: 'tagged',
                 tagName: 'vsco',
                 clientId: '8660306ba1294d659b72dd9ee027ebcb',
                 target: 'instafeed',
@@ -13,13 +13,13 @@ feed = new Instafeed({
     images: [],
     currentImage: 0,
     showImage: function () {
-      var result, image;
+      var imageresult, image;
       image = this.options.custom.images[this.options.custom.currentImage];
-      result = this._makeTemplate(this.options.template, {
+      imageresult = this._makeTemplate(this.options.template, {
         model: image,
         image: image.images[this.options.resolution].url,
       });
-      $("#instafeed").html(result);
+      $("#instafeed").html(imageresult);
     }
   },
   success: function (data) {
@@ -30,22 +30,22 @@ feed = new Instafeed({
 });
 feed.run();
 
-$(".next").click(function () {
-  var length, current;
-  current = feed.options.custom.currentImage;
-  length = feed.options.custom.images.length;
-  if (current < length - 1) {
-    feed.options.custom.currentImage++;
-    feed.options.custom.showImage.call(feed);
-  }
-});
-
 $(".prev").click(function () {
   var length, current;
   current = feed.options.custom.currentImage;
   length = feed.options.custom.images.length;
   if (current > 0) {
     feed.options.custom.currentImage--
+    feed.options.custom.showImage.call(feed);
+  }
+});
+
+$(".next").click(function () {
+  var length, current;
+  current = feed.options.custom.currentImage;
+  length = feed.options.custom.images.length;
+  if (current < length - 1) {
+    feed.options.custom.currentImage++;
     feed.options.custom.showImage.call(feed);
   }
 });

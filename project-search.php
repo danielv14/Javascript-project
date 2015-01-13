@@ -27,7 +27,7 @@
   </div><!-- Container -->
 
 <script src='js/jquery.js'></script>
-<script src='js/instafeed.js'></script>
+<script src='js/instagram-feed.js'></script>
 <script src='js/angular.js'></script>
 <script src="js/search.js"></script>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
         <head>
-                <title>Javascript Project</title>
+                <title>#Insta-site</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link rel="icon" type="image/ico" href="favicon.png"/>
                 <link href = "css/bootstrap.css" rel = "stylesheet">
@@ -21,7 +21,7 @@
                 <div class = "navbar navbar-default navbar-static-top">
                         <div class = "container">
                                
-                                <a href = "index.php" class = "navbar-brand">Name of site</a>
+                                <a href = "index.php" class = "navbar-brand">#insta-site</a>
                                
                                 <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
                                         <span class = "icon-bar"></span>

@@ -3,10 +3,10 @@
  <div class = "container">
         <div class = "frontpage-jumbotron">
                <div class = "jumbotron-fader">
-                        <h1 class="text-center">Hello, World!</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci   tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>
+                        <h1 class="text-center">#Insta-site</h1>
+                        <p>Here at #Insta-site we really <i class="fa fa-heart-o"></i> Instagram and everything related to social media. If you are in need to instagramify your own website you've come to the right place. We offer both a searchable instgram-gallery and a slideshow for displaying instagram photos. So go ahead and check them out!</p>
                 </div>
-                <center><a class = "btn btn-primary" href="project-search.php">Show in action!</a></center>
+                <center><a class = "btn btn-primary" href="project-search.php">Gallery in action!</a></center>
          </div>
 </div>
 
@@ -16,8 +16,8 @@
                
                 <div class = "col-md-6">
                    
-                    <h3>About searchable gallery</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                    <h3>About the searchable gallery</h3>
+                    <p>The gallary is capable of showing the 30 most-liked photos by whatever tag you search with. You can hover over the photos to see how many likes that photo has and click the photos to see a larger image. </p>
                                     <a href = "project-search.php" class = "btn btn-default">View</a>
                    
                 </div>
@@ -25,7 +25,7 @@
                 <div class = "col-md-6">
                    
                     <h3>About the slideshow</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                    <p>The slideshow is capable of showing the 30 most-liked photos by a fixed tag. Note that you cannot change what tag to display, as with the gallery. Navigate with the arrows to show the next photo or the previous photo. </p>
                                     <a href = "slideshow.php" class = "btn btn-default">View</a>
                    
                 </div>
