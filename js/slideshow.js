@@ -7,6 +7,18 @@ feed = new InstagramFeed({
                 limit: '30',
                 resolution: 'standard_resolution',
   template: '<div id="slideshow"><img src="{{image}}" /></div>',
+  after: function () {
+                              var images = $("#instafeed").find('img');
+                            $.each(images, function(index, image) {
+                              var delay = (index * 75) + 'ms';
+                              $(image).css('-webkit-animation-delay', delay);
+                              $(image).css('-moz-animation-delay', delay);
+                              $(image).css('-ms-animation-delay', delay);
+                              $(image).css('-o-animation-delay', delay);
+                              $(image).css('animation-delay', delay);
+                              $(image).addClass('animated fadein');
+                            });
+                          }, 
 
   mock: true,
   custom: {
@@ -31,6 +43,7 @@ feed = new InstagramFeed({
 feed.run();
 
 $(".prev").click(function () {
+
   var length, current;
   current = feed.options.custom.currentImage;
   length = feed.options.custom.images.length;
@@ -38,9 +51,20 @@ $(".prev").click(function () {
     feed.options.custom.currentImage--
     feed.options.custom.showImage.call(feed);
   }
+  var images = $("#instafeed").find('div');
+                            $.each(images, function(index, image) {
+                              var delay = (index * 75) + 'ms';
+                              $(image).css('-webkit-animation-delay', delay);
+                              $(image).css('-moz-animation-delay', delay);
+                              $(image).css('-ms-animation-delay', delay);
+                              $(image).css('-o-animation-delay', delay);
+                              $(image).css('animation-delay', delay);
+                              $(image).addClass('animated fadeleft');
+                            });
 });
 
 $(".next").click(function () {
+
   var length, current;
   current = feed.options.custom.currentImage;
   length = feed.options.custom.images.length;
@@ -48,4 +72,14 @@ $(".next").click(function () {
     feed.options.custom.currentImage++;
     feed.options.custom.showImage.call(feed);
   }
+  var images = $("#instafeed").find('img');
+                            $.each(images, function(index, image) {
+                              var delay = (index * 75) + 'ms';
+                              $(image).css('-webkit-animation-delay', delay);
+                              $(image).css('-moz-animation-delay', delay);
+                              $(image).css('-ms-animation-delay', delay);
+                              $(image).css('-o-animation-delay', delay);
+                              $(image).css('animation-delay', delay);
+                              $(image).addClass('animated fadein');
+                            });
 });

@@ -34,7 +34,7 @@
                                         <ul class = "nav navbar-nav navbar-left">
                                        
                                                 <li><a href = "index.php"><i class="fa fa-home"></i> Home</a></li>
-                                                <li><a href = "project-search.php"><i class="fa fa-camera-retro"></i> Search for tags</a></li>
+                                                <li><a href = "project-search.php"><i class="fa fa-camera-retro"></i> Gallery</a></li>
                                                 <li><a href = "slideshow.php"><i class="fa fa-picture-o"></i> Slideshow</a></li>
 
                                                 <li><a href = "about.php"><i class="fa fa-info-circle"></i> About</a></li>  

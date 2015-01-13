@@ -17,12 +17,12 @@
 <h2>Gallery</h2>
 
 <p>The Gallery is the feature-richest application at Insta-site. But at the same time it's really easy to use. You simply search for Instagram-photos by their hashtags. Lets say you want to view pictures of pugs. You then simply input 'pugs' in the search-field and click the search-button. 30 pictures that Instagrams users have tagged with the word 'pugs' then is displayed for your viewing. You can click the pictures to view a larger version of that picutres or maybe you want to search for something else, say cats instead?   <br/>
-The gallery is mobile-friendly so you can easily search for pictures with Insta-site on your smartphone or tablet.</p>
+</p>
 
 <h2>Slideshow</h2>
 
 <p>The slideshow is even more easier to use than the gallery and require less user-input. Simply click either one of the circles to navigate left and right in the slideshow. This web application pre-fetches pictures by a centain tag and you cannot change that tag unless you want to get your hands diry and change the underlaying code.     <br/>
-As of now the slideshow is not fully optimized for smaller screens, such as smartphones or tablets.</p>
+</p>
 
 <h2>Competition</h2>
 

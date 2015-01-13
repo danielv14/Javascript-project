@@ -4,7 +4,7 @@
         <div class = "frontpage-jumbotron">
                <div class = "jumbotron-fader">
                         <h1 class="text-center">Insta-site</h1>
-                        <p>Here at #Insta-site we really <i class="fa fa-heart-o"></i> Instagram and everything related to social media. If you are in need to instagramify your own website you've come to the right place. We offer both a searchable instgram-gallery and a slideshow for displaying instagram photos. So go ahead and check them out!</p>
+                        <p>Here at Insta-site we really <i class="fa fa-heart-o"></i> Instagram and everything related to social media. If you are in need to instagramify your own website you've come to the right place. We offer both a searchable instgram-gallery and a slideshow for displaying instagram photos. So go ahead and check them out!</p>
                 </div>
                 <center><a class = "btn btn-primary" href="project-search.php">Gallery in action!</a></center>
          </div>
