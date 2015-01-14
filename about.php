@@ -35,7 +35,7 @@ On the other hand, <a href="vsmaster.com" title="VSmaster.com">VSMaster.com</a> 
 
 <h2>Configuration</h2>
 
-<p>Insta-site if available on GitHub, click the button named 'GitHub' in the footer and you will be taken to the code of this site and its applications.</p>
+<p>Insta-site is available on GitHub, click the button named 'GitHub' in the footer and you will be taken to a a repository with simple examples of the gallery and the slideshow</p>
 
 <p>If you want to use the web applications on your own site it is recommended that you take a look at <a href="http://instagram.com/developer/" title="Instagram developer">The Instagram developer site</a> and follow the inscructions there to set up your own client and get your own client id. You then change the client id in search.js and slideshow.js like this:</p>
 

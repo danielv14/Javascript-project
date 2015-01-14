@@ -23,7 +23,7 @@
         </div> <!-- Jumbo fader -->
       </div> <!-- Jumbo -->
       </div> 
-  <center><div id='instafeed'></div></center>
+  <div class="text-center"><div id='instafeed'></div></div>
   </div><!-- Container -->
 
 <script src='js/jquery.js'></script>

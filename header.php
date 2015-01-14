@@ -11,14 +11,9 @@
                 <link href = "css/animations.css" rel = "stylesheet">
                 <link rel='stylesheet prefetch' href='css/fancybox.css'>
                 <link href="css/slideshow.css" rel="stylesheet">
-
-
-
-                
-        </head>
-        <body>
- 
-                <div class = "navbar navbar-default navbar-static-top">
+</head>
+<body>
+        <div class = "navbar navbar-default navbar-static-top">
                         <div class = "container">
                                
                                 <a href = "index.php" class = "navbar-brand">Insta-site</a>

@@ -5,8 +5,8 @@
 
 
         <h1 class="text-center">Instagram slideshow</h1>
-    
-	<center><div id="instafeed"></div></center>
+    <div class="text-center">
+	<div id="instafeed"></div></div>
 		<div class="controls">
 			<div class="prev entypo-left-open-big"></div>
 			<div class="next entypo-right-open-big"></div>

@@ -2,7 +2,7 @@
                
                         <div class = "container">
                                 <p class = "navbar-text pull-left">Site Built By Daniel Vernberg</p>
-                                <a target="_blank" href = "https://github.com/danielv14/Javascript-project" class = "navbar-btn btn-info btn pull-right">GitHub</a>
+                                <a target="_blank" href = "https://github.com/danielv14/Insta-site" class = "navbar-btn btn-info btn pull-right">GitHub</a>
 
                         </div>
                
