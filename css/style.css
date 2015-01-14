@@ -65,11 +65,7 @@ border-radius: 4px;
     width: calc(100%/5 - 1em);
   }
 }
-@media screen and (max-width: 1200px) {
-  #instafeed a {
-    width: calc(100%/3 - 1em);
-  }
-}
+
 @media screen and (max-width: 800px) {
   #instafeed a {
     width: calc(100%/2 - 1em);

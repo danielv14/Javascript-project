@@ -2,9 +2,8 @@
 <html>
         <head>
                 <title>Insta-site</title>
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
                 <link rel="icon" type="image/ico" href="favicon.png"/>
-                <link href = "css/bootstrap.css" rel = "stylesheet">
                 <link href = "css/style.css" rel = "stylesheet">
                 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
                 <link href = "css/jumbotron.css" rel = "stylesheet">
