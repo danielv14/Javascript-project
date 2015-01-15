@@ -16,7 +16,7 @@
 <p>För mitt slutprojekt i denna kurs har jag skapat en hemsida där man kan söka efter Instagram hashtags och se ett galleri enligt den sökta hashtagen samt en slideshow med en förbestämd hashtag. Jag har namngivit projektet och hemsidan Insta-site.
 Hemsidan är byggd med hjälp av bootstrap men använder dock ett annat tema än bootstraps originaltema.
 I övrigt är hemsidan väldigt enkel jag försökte att lyfta fram galleriet och min slideshow direkt på startsidan och jag försökte även snabbt få potentiella användare att inse vad hemsidan handlar om. I Footern finns en länk som tar en till GitHub där en avskalad version av Insta-site finns som enbart lyfter fram själva galleriet och bildspelet. På Github finns enkla instruktioner hur man kan konfigurera applikationerna, dessa instruktioner finns även på ”about”-sidan på Insta-site.
-Applikationerna är byggda på javascript och jquery. Galleriet bygger även på Angular.js för att få till sökfunktionen i galleriet.</p>
+Applikationerna är byggda på javascript och jquery. Galleriet bygger även på AngularJS för att få till sökfunktionen i galleriet.</p>
 
 <p>Jag skulle själv påstå att jag lyckats produktifiera projektet bra då jag visar upp och ”marknadsför" galleriet och bildspelet på Insta-site på ett någorlunda professionellt  sätt. Applikationerna är även paketerade på ett avskalat sätt på GitHub. Hade först tänk länka till ett repository som visar källkoden för hela Insta-site men insåg efter ett tag att det vore smidigare att kunna visa upp ett mer avskalat repository som lyfter fram applikationerna utan allt ”runtikring” som presentationssidan för Insta-site annars är uppbyggt av såsom exempelvis bootstrap och uppdelning av kod.</p>
 
@@ -36,7 +36,7 @@ Frågan är hur pass mer avancerad man kan göra Insta-site och samtidigt behål
 
 <p>Jag har inte fört någon tidslogg för hur många timmar jag ägnat åt projektet men skulle jag uppskatta är det nog runt 60 timmar men det är svårt att säga exakt. Sen kan ju en timme skilja sig från person till person då man kan ha olika produktivitetsnivå.</p>
 
-<p>Projektet som jag valde att göra tycker jag ligger i linje med mina tidigare kunskaper i Javascript med tanke på att jag endast har denna kurs i bagaget. Samtidigt tycker jag att valet av projekt har lett till att jag har fått lära mig många nya saker då jag använt mig av Angular.js samt Instagrams API och byggt en hemsida med hjälp av Bootstrap vilket var första gången för mig. Kan inte påstå att valet av att använda Bootstrap sparade så himla mycket tid för mig då jag behövde studera dokumentationen en hel del under uppbyggnaden av hemsidan.</p>
+<p>Projektet som jag valde att göra tycker jag ligger i linje med mina tidigare kunskaper i Javascript med tanke på att jag endast har denna kurs i bagaget. Samtidigt tycker jag att valet av projekt har lett till att jag har fått lära mig många nya saker då jag använt mig av AngularJS samt Instagrams API och byggt en hemsida med hjälp av Bootstrap vilket var första gången för mig. Kan inte påstå att valet av att använda Bootstrap sparade så himla mycket tid för mig då jag behövde studera dokumentationen en hel del under uppbyggnaden av hemsidan.</p>
 
 <h2>Allmänt om projektet</h2>
 
@@ -44,7 +44,7 @@ Frågan är hur pass mer avancerad man kan göra Insta-site och samtidigt behål
 
 <p>En del tid i början av projektet lades också på att förstå Bootstrap och läsa dess dokumentation då det var första gången jag använde mig av Bootstrap för att bygga en hemsida.</p>
 
-<p>En funktion jag fastnade på väldigt länge var att få till en sökfunktion i mitt gallery. Det var här Angular.js kom in i bilden och jag spenderade en del tid med diverse tutorials samt dokumentation om just angular.js för att försöka förstå mig på det. Alla tutorials och research om angular.js gav mig verkligen försmak för det och skulle gärna lära mig mer om vad angular.js har att erbjuda då jag i detta projekt inte ens använt en bråkdel av vad angular.js innebär.</p>
+<p>En funktion jag fastnade på väldigt länge var att få till en sökfunktion i mitt gallery. Det var här AngularJS kom in i bilden och jag spenderade en del tid med diverse tutorials samt dokumentation om just AngularJS för att försöka förstå mig på det. Alla tutorials och research om AngularJS gav mig verkligen försmak för det och skulle gärna lära mig mer om vad AngularJS har att erbjuda då jag i detta projekt inte ens använt en bråkdel av vad AngularJS innebär.</p>
 
 <p>Produkifieringen av projektet var väldigt kul, lärorikt och kändes som en verklighetsförankrad deluppgift.</p>
 
