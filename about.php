@@ -17,7 +17,7 @@
 
 <h2>Gallery</h2>
 
-<p>The Gallery is the feature-richest application at Insta-site. But at the same time it's really easy to use. You simply search for Instagram-photos by their hashtags. Lets say you want to view pictures of pugs. You then simply input 'pugs' in the search-field and click the search-button. 30 pictures that Instagrams users have tagged with the word 'pugs' then is displayed for your viewing. You can click the pictures to view a larger version of that picutres or maybe you want to search for something else, say cats instead?   <br/>
+<p>The Gallery is the most feature-rich application at Insta-site. But at the same time it's really easy to use. You simply search for Instagram-photos by their hashtags. This is done with Angular.js. Lets say you want to view pictures of pugs. You then simply input 'pugs' in the search-field and click the search-button. 30 pictures that Instagrams users have tagged with the word 'pugs' then is displayed for your viewing. The gallery uses <a href="http://fancyapps.com/fancybox">fancybox</a> and you can click the imgages to enlarge them.   <br/>
 </p>
 
 <h2>Slideshow</h2>

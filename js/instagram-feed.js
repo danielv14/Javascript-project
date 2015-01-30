@@ -200,7 +200,7 @@
           break;
         case "tagged":
           if (typeof this.options.tagName !== 'string') {
-            // Had to remove this error message. It didnt play nice with Angular.js ng-keypress
+            // Had to remove this error message. It didnt play nice with Angular.js ng-keypress. update: scrapped ng-keypress idea
           }
           endpoint = "tags/" + this.options.tagName + "/media/recent";
           break;
